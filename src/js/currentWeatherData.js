@@ -29,7 +29,7 @@ export const currentWeatherData = async (data, key) => {
       throw new Error(`Ye jo jagah ha na ${data},ye hamare database me nahi ha ,koi bade seher ka dekho.`);
     } else {
       throw new Error(
-        "Oops! We're having trouble getting the latest weather information right now. Please try again later or contact support if the problem persists."
+        "Bada office ha na jaha se ye information aati ha , uhone info dene se mana kar diya , thodi der baad try karlijega, lunch time hoga "
       );
     }
   }
