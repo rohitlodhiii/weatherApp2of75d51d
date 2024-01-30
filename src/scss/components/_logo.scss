@@ -1,0 +1,14 @@
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: $spacing-14 $spacing-16;
+  border-radius: $border-radius;
+  background-color: $tertiary-color;
+  font-size: larger;
+  @include typography($font-size-14, $medium-500, $accent-color);
+
+  path {
+    fill: $primary-color;
+  }
+}
