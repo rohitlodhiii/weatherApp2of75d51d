@@ -26,7 +26,7 @@ export const currentWeatherData = async (data, key) => {
 
   if (!response.ok) {
     if (response.status === 404) {
-      throw new Error(`Sorry, we couldn't find ${data}. Please double-check the spelling and try again.`);
+      throw new Error(`Ye jo jagah ha na ${data},ye hamare database me nahi ha ,koi bade seher ka dekho.`);
     } else {
       throw new Error(
         "Oops! We're having trouble getting the latest weather information right now. Please try again later or contact support if the problem persists."
